@@ -5,10 +5,25 @@
 	<meta charset="utf-8" />
 </head>
 <body>
+    <h2>test</h2>
 
 
 
-    <script src="~/viewJS/PluginLearning.js"></script>
+
+    <script src="../Scripts/jquery-3.3.1.min.js"></script>
+    <script src="../viewJS/PluginLearning.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('h2').helloWorld({
+                text: 'Salut, le monde!',
+                color: '#005dff'
+
+            });
+        });
+
+
+
+    </script>
 </body>
 
 </html>
